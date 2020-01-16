@@ -1,3 +1,48 @@
 body {
     background-color: wheat;
 }
+.card {
+    display: flexbox;
+    box-shadow: 5px 5px 5px 5px;
+    max-width: 300px;
+    min-height: 500px;
+    max-height: 700px;
+    float: left;
+    padding: 10px 10px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-wrap: wrap;
+    
+
+}
+
+img {
+    height: 200px;     
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.card h2 {
+    border: 1px;
+    border-style: dotted;
+    border-color: lightblue;
+    text-align: center;
+    display: flexbox;
+    
+}
+
+.card  {
+    justify-content: space-evenly;
+}
+
+.desc { 
+    text-align: justify;
+    
+
+}
+
+.size {
+    font-weight: bold;
+}
