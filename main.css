@@ -1,7 +1,6 @@
 body {
-    background-color: white;
-    display: flex;
-    flex-wrap: wrap;
+    background-color: royalblue;
+
     
 }
 .card {
@@ -16,6 +15,14 @@ body {
     margin-right: 30px;
     flex-wrap: wrap;
     background-color: wheat;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    border: black;
+    border-width: 2px;
 
 }
 
@@ -36,8 +43,9 @@ header {
     
 }
 
-.card  {
-    justify-content: space-evenly;
+.cards  {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .words { 
