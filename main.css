@@ -1,20 +1,24 @@
 body {
-    background-color: royalblue;
-
+    background: #303F9F;
+    flex-wrap: wrap;
     
 }
 .card {
     display: flexbox;
-    box-shadow: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px 5px #BDBDBD;
     max-width: 300px;
     min-height: 500px;
-    max-height: 700px;
-
+    
+    height: auto;
     margin-bottom: 50px;
     margin-left: 30px;
     margin-right: 30px;
     flex-wrap: wrap;
-    background-color: wheat;
+    background: #3F51B5;
+    flex-flow: column;
+    padding-bottom: 5px;
+
+    
 
 }
 
@@ -23,6 +27,8 @@ body {
     justify-content: center;
     border: black;
     border-width: 2px;
+    color: #FFFFFF;
+    font-family: 'Anton', sans-serif;
 
 }
 
@@ -40,25 +46,41 @@ header {
     text-align: center;
     display: flexbox;
     align-items: flex-start;
+    font-family: 'Anton', sans-serif;
     
 }
 
+
+
 .cards  {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
 }
 
 .words { 
     text-align: justify;
     padding-bottom: 10px;
     padding-left: 10px;
-    padding-right: 10px   
+    padding-right: 10px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;  
+      
+
 
 }
+
+.card:hover {
+    color: coral;
+    opacity: 0.4;
+ }
 
 .specs {
     font-weight: bold;
     padding-left: 10px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;  
 }
 
 .center{
@@ -78,8 +100,21 @@ header {
 
 h3 {
     padding-left: 5px;
+    font-family: 'Anton', sans-serif;
 }
 
 footer {
     padding-top: 10px;
+    color: #757575;
+    font-family: 'Anton', sans-serif;h
+
 }
+
+.dark-primary-color    { background: #303F9F; }
+.default-primary-color { background: #3F51B5; }
+.light-primary-color   { background: #C5CAE9; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #7C4DFF; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
