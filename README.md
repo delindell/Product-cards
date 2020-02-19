@@ -8,6 +8,6 @@ In the project we explored making cards using just HTML and CSS. We learned the 
 
 ## How to run
 1. Clone down this repo
-1. Make sure you have http-server installed via npm. If not get it HERE.
+1. Make sure you have http-server installed via npm. If not get it [HERE](https://www.npmjs.com/package/http-server).
 1. In your command line run `hs -p 9999`
 1. In your browser go to to `http://localhost:9999`
